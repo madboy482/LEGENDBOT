@@ -156,9 +156,9 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                     try:
                         fcix = [custom.Button.inline("  𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝖀𝖓𝖑𝖔𝖆𝖉 ",data="unload({})".format(shivam_sh1vam))]
                         load_module(event.data_match.group(1).decode("UTF-8"))# kyu sir kang krne m musil aa rhi h kya ... Bolo help kr du kya 😂😂😂
-                        await event.edit( "`Your DarkCobra Has Successfully loaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
+                        await event.edit( "`Your LEGEND BOT Has Successfully loaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
                     except Exception as e:
-                        await event.edit("Error{}".format(shortname, str(e))+ "DarkCobra Has Successfully loaded" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
+                        await event.edit("Error{}".format(shortname, str(e))+ "LEGEND BOT Has Successfully loaded" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
               else:
                     shortname = event.data_match.group(1).decode("UTF-8")
                     fcix = [custom.Button.inline("  𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝖀𝖓𝖑𝖔𝖆𝖉 ",data="unload({})".format(shivam_sh1vam))]
@@ -173,9 +173,9 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                     try:
                         fcix = [custom.Button.inline(" 𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝕷𝖔𝖆𝖉 ",data="load({})".format(shivam_sh1vam))]
                         remove_plugin(event.data_match.group(1).decode("UTF-8"))#kyu sir kang krne m muskil ho rhi h kya bologe toh help krdu 😂😂
-                        await event.edit( "`Your DarkCobra Has Successfully unloaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
+                        await event.edit( "`Your LEGEND BOT Has Successfully unloaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
                     except Exception as e:
-                        await event.edit("Error{}".format(shortname, str(e)) +"DarkCobra Has Successfully unloaded"+ str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
+                        await event.edit("Error{}".format(shortname, str(e)) +"LEGENDBOT Has Successfully unloaded"+ str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
               else:
                     shortname = event.data_match.group(1).decode("UTF-8")
                     fcix = [custom.Button.inline("  𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝕷𝖔𝖆𝖉 ",data="load({})".format(shivam_sh1vam))]
