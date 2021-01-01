@@ -29,7 +29,7 @@ delete kr diya h _inline
 
 #getlost
 
-#TEAM DC
+#TEAM LEGEND
 
 #special plugin for Kangers..
 
